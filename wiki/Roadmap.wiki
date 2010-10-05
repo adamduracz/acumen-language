@@ -1,0 +1,34 @@
+#summary Roadmap of future acumen releases.
+
+ * Experimental extensions for property checking with ACL2
+ * Experimental extensions for  property checking with KAYMAERA
+ * Experiments generating CILK++
+ * Experiments generating HJ library calls -- *Paul*
+ * Experiments generating SAC (single assigment C)
+ * Experiments generating Ambric implementation
+ * Tutorial based on adventure 1
+ * Tutorial for network simulation
+ * PhD course (7.5 points)
+ * 3D visualization -- *Paul*
+ * Zero-crossing detection -- *Paul*
+ * Experimental Zeno effect detection -- *Paul*
+ * Random numbers
+ * Variable time stepping
+ * Backwards evaluation
+ * Interval arithmetic evaluation
+ * Exact real arithmetic evaluation
+ * First-level language and BTA/specialization
+   * Equations
+   * Symbolic differenciation
+   * PDEs
+   * Purely functional language
+ * Type system
+   * matrices are a pain
+   * initialization, boundary conditions
+   * determinacy
+   * ownership types
+   * unit checking
+ * Language design issues
+   * How do you describe connecting two objects together? (A lego car for instance.)
+   * How do you model the contact of the ground with four wheels?
+   * How do you do collision detection?
