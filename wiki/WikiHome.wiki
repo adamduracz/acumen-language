@@ -12,5 +12,5 @@ Users of are welcome to subscribe to the [http://groups.google.com/group/acumen-
 = Navigation =
 
 Have a look at the side bar (at the left of this page) for an overview of what is available.
- * New user may want to [Setup setup] Acumen then [Running run] it. 
+ * New users may want to learn how to [Setup setup] Acumen then [Running run] it. 
  * Developers may want to consult the [Roadmap roadmap] or the [ChangeLog changelog].
