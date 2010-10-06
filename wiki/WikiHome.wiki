@@ -13,4 +13,4 @@ Users of are welcome to subscribe to the [http://groups.google.com/group/acumen-
 
 Have a look at the side bar (at the left of this page) for an overview of what is available.
  * New user may want to [Setup setup] Acumen then [Running run] it. 
- * Developers may want to consult the [Roadmap] or the [ChangeLog changelog].
+ * Developers may want to consult the [roadmap] or the [ChangeLog changelog].
