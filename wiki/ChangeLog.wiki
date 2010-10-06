@@ -1,4 +1,4 @@
-#summary changelog since the first online version
+#summary Changelog since the first online version
 #sidebar TableOfContents
 
 == version 20100930 (September 30th 2010) ==
