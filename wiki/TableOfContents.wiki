@@ -10,4 +10,4 @@
    * [Troubleshooting]
  * Development Corner
    * [Roadmap]
-   * [ChangeLog]
+   * [ReleaseNotes]
