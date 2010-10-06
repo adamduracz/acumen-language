@@ -8,10 +8,3 @@ Welcome to the Acumen Wiki pages.  Please feel free to share your thoughts on an
 For official news about Acumen, please check or subscribe to the [http://www.acumen-language.org/ Acumen Home Page].
 
 Users of are welcome to subscribe to the [http://groups.google.com/group/acumen-discussions acumen-discussion mailing list].
-
-= Summary =
-
-This wiki features:
-
-  * A ChangeLog
-  * A [Roadmap]
