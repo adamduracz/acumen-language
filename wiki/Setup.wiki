@@ -1,9 +1,9 @@
 #sidebar TableOfContents
 
- # Download Acumen
+= Download Acumen =
   The last version of Acumen is always avalaible at [http://code.google.com/p/acumen-language/downloads/list here]. The current stable version is [http://code.google.com/p/acumen-language/downloads/detail?name=acumen_20100930.zip&can=2&q= 20100930].
- # Unzip the archive
+= Unzip the archive =
   * *Windows*: double click on the archive
   * *Mac*: the archive should have been automatically unzipped on the desktop
   * *Other Unixes*: run `unzip acumen_20100930.zip`
- # [Running Run acumen!]
+= [Running Run acumen!] =
