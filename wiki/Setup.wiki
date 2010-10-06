@@ -7,6 +7,6 @@
   * *Mac*: the archive should have been automatically unzipped on the desktop
   * *Other Unixes*: run
     {{{
-unzip acumen_20100930.zip
+unzip acumen_xxxxxxxx.zip
 }}}
 = [Running Run acumen!] =
