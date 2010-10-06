@@ -2,7 +2,7 @@
 #sidebar TableOfContents
 
  * Experimental extensions for property checking with ACL2
- * Experimental extensions for  property checking with KAYMAERA
+ * Experimental extensions for  property checking with KEYMAERA [Travis]
  * Experiments generating CILK++
  * Experiments generating HJ library calls -- *Paul*
  * Experiments generating SAC (single assigment C)
