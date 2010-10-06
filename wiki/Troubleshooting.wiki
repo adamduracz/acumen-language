@@ -1,0 +1,240 @@
+#summary Acumen errors: why they occur and how to solve them.
+
+<wiki:toc max_depth="3" />
+
+= List of error messages =
+
+== Interpreter Errors ==
+
+The following errors are raised by the interpreter. This means they can occur both in the command-line and the graphical versions of Acumen.
+
+=== Parse Error ===
+
+Example:
+{{{
+[2.1] failure: ``class'' expected but identifier cass found
+
+cass B() end
+^
+}}}
+Here, `[2.1]` reads "line 2, column 1".
+
+=== Found no instance of class _classname_. ===
+Example: 
+{{{
+Found no instance of class Main.
+}}}
+Should never happen in a regular Acumen program written using the GUI.
+
+=== Class _classname_ is not defined. ===
+A program tries to create a class that has not been defined.
+
+=== _value_ is not an object. ===
+For instance, the program
+{{{
+...
+(1+2).x = 4
+...
+}}}
+will raise
+{{{
+3 is not an object
+}}}
+
+=== Cannot convert _value_ into a _type_. ===
+
+For instance, the program
+{{{
+...
+"a" + 1.5
+...
+}}}
+will raise
+{{{
+Cannot convert "a" into a float.
+}}}
+
+=== _value_ is not a vector or a list. ===
+For instance, the program
+{{{
+...
+for i=1+2 
+  x = x+i
+end
+...
+}}}
+will raise
+{{{
+3 is not a vector or a list.
+}}}
+
+=== Unknown operator _name_ ===
+An undefined function has been invoked. For instance:
+{{{
+foo(1,2)
+}}}
+as opposed to
+{{{
+sqrt(2)
+}}}
+which is defined.
+
+=== Cross product only defined over vectors of size 3. ===
+
+When trying to perform a cross product over vector the length of which is not 3.
+
+=== _name_ is not a valid vector-vector operation. ===
+
+For instance, the program
+{{{
+v = 1:10;
+w = 1:20;
+res = v / w
+}}}
+is not valid since `/` is not defined over vectors.
+
+=== _name_ is not a valid operation over vectors. ===
+
+For instance, the program
+{{{
+sqrt(1:10)
+}}}
+is not valid since `sqrt` is not defined over vectors.
+
+=== _name_ is not a valid scalar-vector operation. ===
+
+For instance, the program
+{{{
+2.5 .* (1:10)
+}}}
+will raise
+{{{
+.* is not a valid scalar-vector operation.
+}}}
+
+
+=== _name_ is not a valid vector-scalar operation. ===
+
+For instance, the program
+{{{
+(1:10) .* 2.5
+}}}
+will raise
+{{{
+.* is not a valid vector-scalar operation.
+}}}
+
+=== Too many arguments in the construction of _classname_. ===
+
+This error occurs when too many arguments are passed to a class constructor during creation.
+
+=== Not enough arguments in the construction of _classname_. ===
+
+This error occurs when too many arguments are passed to a class constructor during creation.
+
+=== Variable _name_ not declared ===
+
+This happens when a program try to read or write a variable that has not been declared (either as a class parameter or as a private variable).
+
+=== Object _id_ is not self (i.e. _id_) nor a child of self (i.e. _id1, id2, ..._). ===
+
+This message is raised whenever a program tries to access an object's field, the latter object being neither self nor a direct child of self.
+
+
+=== Object _id_ is not a child of _id_. ===
+
+This happens during a "bad move":
+{{{
+...
+move o1.x o2
+...
+}}}
+would raise this error whenever the object designated by `o1.x` is not a child of `o1`.
+
+=== No case matching _value_. ===
+
+For instance, the program
+{{{
+...
+switch (1+2)
+  case 1
+    ...
+  case 2
+    ...
+end
+...
+}}}
+will raise
+{{{
+No case matching 3.
+}}}
+
+=== The left hand-side of an assignment must be of the form 'e.x'. ===
+
+This error happens when the interpreter encounters a statement of the form
+{{{
+x = 2
+}}}
+instead of
+{{{
+o.x = 2
+}}}
+Since Acumen inserts `self` whenever needed, this should never happen in a regular Acumen program.
+
+=== The left hand-side of an equation must be a field. ===
+
+This may happen with a program like
+{{{
+1 = 2
+}}}
+However, this should never happen in a regular Acumen program, since a error saying is not of the form `e.x` should be raised beforehand.
+
+=== Move statements must have the form 'move o1.x o2' ===
+
+For instance, the program
+{{{
+...
+move x o2 
+...
+}}}
+will raise such an error. Since Acumen inserts `self` whenever needed, this should never happen in a regular Acumen program.
+
+== GUI Errors ==
+
+The following errors may be raised by the graphical user interface only.
+
+=== Simulation's time is not a double. ===
+
+This error occurs when the simulation's time has been set to a string for example.
+
+=== Simulation's stepType is not a step type. ===
+
+This error occurs when the simulation's stepType has been set to a string for example.
+
+=== Can only _state_ when _state_ or _state_ ===
+
+For instance
+{{{
+Can only play when Paused or Stopped.
+}}}
+This should normally never happen since the GUI prevents the user from clicking on "play" when the simulation is already running.
+
+== Command-Line errors ==
+
+The following errors may be raised by the command-line version only.
+
+=== Bad program options. Valid options are ... ===
+
+This may be raised by
+{{{ 
+./acumen foo 
+}}}
+for instance, since `foo` is not a valid option.
+
+== Special Errors ==
+
+The following errors are very special.
+
+=== The "impossible" has just happened! ... ===
+
+As the rest of the message states, if this occursm, please report a bug at [http://code.google.com/p/acumen-language/issues/] including the program that has led to that error.
