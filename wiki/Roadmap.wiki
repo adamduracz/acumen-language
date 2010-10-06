@@ -24,11 +24,11 @@
    * PDEs
    * Purely functional language
  * Type system
-   * matrices are a pain
-   * initialization, boundary conditions
-   * determinacy
-   * ownership types
-   * unit checking
+   * Matrices are a pain
+   * Initialization, boundary conditions
+   * Determinacy
+   * Ownership types
+   * Unit checking
  * Language design issues
    * How do you describe connecting two objects together? (A lego car for instance.)
    * How do you model the contact of the ground with four wheels?
