@@ -6,3 +6,4 @@
   * *Windows*: double click on the archive
   * *Mac*: the archive should have been automatically unzipped on the desktop
   * *Other Unixes*: run `unzip acumen_20100930.zip`
+ # [Running Run acumen!]
