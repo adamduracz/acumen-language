@@ -1,4 +1,4 @@
- * [WikiHome Main Page]
+ * [WikiHome Home]
  * Development
    * [Roadmap]
    * [ChangeLog]
