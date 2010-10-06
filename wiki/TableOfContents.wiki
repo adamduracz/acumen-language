@@ -1,7 +1,4 @@
  * [WikiHome Home]
- * Development
-   * [Roadmap]
-   * [ChangeLog]
  * Getting Started
    * [Setup]
    * [Running Running Acumen]
@@ -9,3 +6,6 @@
    * Adventure 1
    * Adventure 2
    * ...
+ * Development Corner
+   * [Roadmap]
+   * [ChangeLog]
