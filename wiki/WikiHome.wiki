@@ -1,8 +1,6 @@
 #summary Acumen Wiki Home Page
 #sidebar TableOfContents
 
-= Introduction =
-
 Welcome to the Acumen Wiki pages.  Please feel free to share your thoughts on any aspect of Acumen's design, as well as to upload any interesting Acumen programs that you would like to share with the community.
 
 For official news about Acumen, please check or subscribe to the [http://www.acumen-language.org/ Acumen Home Page].
