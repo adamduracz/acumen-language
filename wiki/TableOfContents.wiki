@@ -6,7 +6,6 @@
    * Adventure 1
    * Adventure 2
    * ...
-----
  * Development Corner
    * [Roadmap]
    * [ChangeLog]
