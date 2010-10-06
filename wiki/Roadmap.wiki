@@ -1,4 +1,5 @@
 #summary Roadmap of future acumen releases.
+#sidebar TableOfContents
 
  * Experimental extensions for property checking with ACL2
  * Experimental extensions for  property checking with KAYMAERA
