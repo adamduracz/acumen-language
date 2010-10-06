@@ -1,4 +1,5 @@
 #summary Acumen Wiki Home Page
+#sidebar TableOfContents
 
 = Introduction =
 
