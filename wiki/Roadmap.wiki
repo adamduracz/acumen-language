@@ -2,7 +2,7 @@
 #sidebar TableOfContents
 
  * Experimental extensions for property checking with ACL2
- * Experimental extensions for  property checking with KEYMAERA [Travis]
+ * Experimental extensions for  property checking with KEYMAERA -- *Travis, Paul, Vinay*
  * Experiments generating CILK++
  * Experiments generating HJ library calls -- *Paul*
  * Experiments generating SAC (single assigment C)
@@ -10,7 +10,7 @@
  * Tutorial based on adventure 1
  * Tutorial for network simulation
  * PhD course (7.5 points)
- * 3D visualization -- *Paul*
+ * 3D visualization
  * Zero-crossing detection -- *Paul*
  * Experimental Zeno effect detection -- *Paul*
  * Random numbers
