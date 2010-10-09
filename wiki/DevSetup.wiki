@@ -8,25 +8,25 @@
    {{{
    svn co https://svn.rice.edu/r/rap/project/Acumen-Scala
    }}}
- # Launch sbt; in a unix shell positioned in `Acumen-Scala` type:
+ # Launch sbt; in a unix shell positioned in `Acumen-Scala`, type:
    {{{
    sbt
    }}}
    and wait until the prompt appears (this will take some time only once).
- # Get the dependencies; in the sbt console type:
+ # Get the dependencies; in the sbt console, type:
    {{{
    update
    }}}
    and wait for a while (this has to be done only once).
- # Compile acumen; in the sbt console type:
+ # Compile acumen; in the sbt console, type:
    {{{
    compile
    }}}
- # (Optional) Test acumen; in the sbt console type:
+ # (Optional) Test acumen; in the sbt console, type:
    {{{
    test
    }}}
- # Run acumen GUI; in the sbt console type:
+ # Run acumen GUI; in the sbt console, type:
    {{{
    run
    }}}
