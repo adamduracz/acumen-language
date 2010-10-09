@@ -6,29 +6,29 @@
  # [http://code.google.com/p/simple-build-tool/wiki/Setup Install sbt] (simple build tool)
  # Checkout the repository; in a unix shell type:
    {{{
-   ~$ svn co https://svn.rice.edu/r/rap/project/Acumen-Scala
+   svn co https://svn.rice.edu/r/rap/project/Acumen-Scala
    }}}
- # Launch sbt:
+ # Launch sbt; in a unix shell positioned in `Acumen-Scala` type:
    {{{
-   ~$ sbt
+   sbt
    }}}
    and wait until the prompt appears (this will take some time only once).
  # Get the dependencies; in the sbt console type:
    {{{
-   > update
+   update
    }}}
    and wait for a while (this has to be done only once).
  # Compile acumen; in the sbt console type:
    {{{
-   > compile
+   compile
    }}}
  # (Optional) Test acumen; in the sbt console type:
    {{{
-   > test
+   test
    }}}
  # Run acumen GUI; in the sbt console type:
    {{{
-   > run
+   run
    }}}
  # Edit the code 
  # Compile again ...
@@ -42,3 +42,30 @@ Automatic compilation in the background is enabled by typing
 in the sbt console.
 
 See [http://code.google.com/p/simple-build-tool/wiki/RunningSbt sbt documentation] for more options.
+
+= Project Structure (or "where are the examples?") =
+
+The project structure follows that proposed by sbt which follows that proposed (imposed?) by Maven:
+
+{{{
+ src/
+    main/
+      resources/
+         <files to include in main jar here>
+      scala/
+         <main Scala sources>
+      java/
+         <main Java sources>
+    test/
+      resources
+         <files to include in test jar here>
+      scala/
+         <test Scala sources>
+      java/
+         <test Java sources>
+}}}
+
+In particular, the example files are situated in:
+{{{
+src/main/resources/acumen/examples
+}}}
