@@ -4,7 +4,7 @@
 = Getting Started =
 
  # [http://code.google.com/p/simple-build-tool/wiki/Setup Install sbt] (simple build tool)
- # Checkout the repository; in a unix shell type:
+ # Checkout the repository; in a unix shell, type:
    {{{
    svn co https://svn.rice.edu/r/rap/project/Acumen-Scala
    }}}
