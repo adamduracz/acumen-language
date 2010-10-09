@@ -41,6 +41,11 @@ Automatic compilation in the background is enabled by typing
 }}}
 in the sbt console.
 
+To get a scala console with acumen's classes loaded, type:
+{{{
+console
+}}}
+
 See [http://code.google.com/p/simple-build-tool/wiki/RunningSbt sbt documentation] for more options.
 
 = Project Structure (or "where are the examples?") =
@@ -68,4 +73,32 @@ The project structure follows the one proposed by sbt which in turn follows that
 In particular, the example files are situated in:
 {{{
 src/main/resources/acumen/examples
+}}}
+
+= Development Scripts =
+
+The `demo` directory contains a bunch of script aimed at debugging and benchmarking. They all take an acumen filename as an argument, with two exceptions:
+ # `bench.sh` also takes two more arguments, namely the lowest number of threads and the highest number of threads benchmarked;
+ # `onevar.sh` takes a variable name before the filename.
+
+Short description of each script:
+
+ * `trace.sh`: output a trace of the simulation
+ * `last.sh`: display only the last state of the simulation
+ * `bench.sh`: run a benchmark of the parallel version
+ * `onevar.sh`: plot the value of one variable (has to appear once at each step)
+ * `demo2d.sh`: 2d animation of x,y coordinates using python's matpotlib
+ * `demo3d.sh`: plot the x,y,z coordinates as 3d traces using python's vtk bindings
+ * `demoj2d.sh`: 2d animation of x,y coordinates using java3d
+ * `demoj3d.sh`: 3d animation of x,y,z + m(mass) coordinates using java3d
+ * python sripts are helper scripts for the shell scripts and shall not be called
+
+Example usage 1:
+{{{
+./demo2d.sh ../src/main/resources/acumen/examples/bouncing_ball_2d.acm
+}}}
+
+Example usage 2:
+{{{
+./bench.sh ../src/main/resources/acumen/examples/internal/big.acm 1 4
 }}}
