@@ -1,4 +1,5 @@
 #summary How to compile and modify Acumen.
+#sidebar TableOfContents
 
 = Getting Started =
 
