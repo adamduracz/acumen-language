@@ -1,0 +1,43 @@
+#summary How to compile and modify Acumen.
+
+= Getting Started =
+
+ # [http://code.google.com/p/simple-build-tool/wiki/Setup Install sbt] (simple build tool)
+ # Checkout the repository; in a unix shell type:
+   {{{
+   ~$ svn co https://svn.rice.edu/r/rap/project/Acumen-Scala
+   }}}
+ # Launch sbt:
+   {{{
+   ~$ sbt
+   }}}
+   and wait until the prompt appears (this will take some time only once).
+ # Get the dependencies; in the sbt console type:
+   {{{
+   > update
+   }}}
+   and wait for a while (this has to be done only once).
+ # Compile acumen; in the sbt console type:
+   {{{
+   > compile
+   }}}
+ # (Optional) Test acumen; in the sbt console type:
+   {{{
+   > test
+   }}}
+ # Run acumen GUI; in the sbt console type:
+   {{{
+   > run
+   }}}
+ # Edit the code 
+ # Compile again ...
+
+= Development Cycle =
+
+Automatic compilation in the background is enabled by typing
+{{{
+~ compile
+}}}
+in the sbt console.
+
+See [http://code.google.com/p/simple-build-tool/wiki/RunningSbt sbt documentation] for more options.
