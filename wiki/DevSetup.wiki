@@ -45,7 +45,7 @@ See [http://code.google.com/p/simple-build-tool/wiki/RunningSbt sbt documentatio
 
 = Project Structure (or "where are the examples?") =
 
-The project structure follows that proposed by sbt which follows that proposed (imposed?) by Maven:
+The project structure follows the one proposed by sbt which in turn follows that of Maven:
 
 {{{
  src/
