@@ -9,5 +9,6 @@
  * Documentation
    * [Troubleshooting]
  * Development Corner
+   * [DevSetup]
    * [Roadmap]
    * [ReleaseNotes]
