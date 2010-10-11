@@ -99,6 +99,14 @@ For instance, the program
 {{{
 sqrt(1:10)
 }}}
+is not valid since `sqrt` is not defined over lists.
+
+=== _name_ is not a valid operation over lists. ===
+
+For instance, the program
+{{{
+sqrt(self.children)
+}}}
 is not valid since `sqrt` is not defined over vectors.
 
 === _name_ is not a valid scalar-vector operation. ===
