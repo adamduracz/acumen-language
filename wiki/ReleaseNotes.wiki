@@ -5,6 +5,7 @@
 
   * Migrated from ant to sbt; addresses [http://code.google.com/p/acumen-language/issues/detail?id=28&can=1&sort=status request request 28]. The generated archive is now much smaller.
   * Added the `length` function for vectors and lists.
+  * The random tests using scalacheck work again.
 
 
 == version 10.09.30 (September 30th 2010) ==
