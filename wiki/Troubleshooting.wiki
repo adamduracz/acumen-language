@@ -1,4 +1,5 @@
 #summary Acumen errors: why they occur and how to solve them.
+#sidebar TableOfContents
 
 <wiki:toc max_depth="3" />
 
