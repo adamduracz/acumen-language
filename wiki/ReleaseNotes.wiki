@@ -1,7 +1,13 @@
 #summary Changelog since the first online version
 #sidebar TableOfContents
 
-== version 20100930 (September 30th 2010) ==
+== version 10.10.11 (October 11th 2010) ==
+
+  * Migrated from ant to sbt; addresses [http://code.google.com/p/acumen-language/issues/detail?id=28&can=1&sort=status request request 28]. The generated archive is now much smaller.
+  * Added the `length` function for vectors and lists.
+
+
+== version 10.09.30 (September 30th 2010) ==
 
   * it is now possible to create objects inside Main's private section; fixes [http://code.google.com/p/acumen-language/issues/detail?id=25&can=1&sort=status bug 25]
   * `~=` is now interpreted; fixes [http://code.google.com/p/acumen-language/issues/detail?id=23&can=1&sort=status bug 23]
