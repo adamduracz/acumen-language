@@ -3,7 +3,7 @@
 
 == version 10.10.11 (October 19th 2010) ==
 
- * fixed the "Magic not found" bug in the GUI ([[http://code.google.com/p/acumen-language/issues/detail?id=31&can=1&sort=status issue 31])
+ * fixed the "Magic not found" bug in the GUI ([[http://code.google.com/p/acumen-language/issues/detail?id=31&can=1&sort=status request issue 31])
  * added an export image option
  * switched to hi constrast icons
 
