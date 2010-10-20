@@ -7,6 +7,7 @@
 
 == version 10.10.11 (October 19th 2010) ==
 
+ * display cursor information on one line (fixes issue 1)
  * fixed the store pretty printing bug (issue 24)
  * allows for hiding magic fields and nextChild fields (issue 2)
  * fixed the "Magic not found" bug in the GUI ([http://code.google.com/p/acumen-language/issues/detail?id=31&can=1&sort=status issue 31])
