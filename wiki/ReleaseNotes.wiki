@@ -3,7 +3,7 @@
 
 == version 10.10.23 ==
 
- * added "upload" action to sbt file that uploads a release on google code
+ * added "upload" action to sbt file that uploads a release on google code (issue 30)
  * the version number is now based on date in the sbt file
  * fixed the UI hanging when pressing pause bug (issue 29)
 
