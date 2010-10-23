@@ -1,8 +1,10 @@
 #summary Changelog since the first online version
 #sidebar TableOfContents
 
-== svn version ==
+== version 10.10.23 ==
 
+ * added "upload" action to sbt file that uploads a release on google code
+ * the version number is now based on date in the sbt file
  * fixed the UI hanging when pressing pause bug (issue 29)
 
 == version 10.10.11 (October 19th 2010) ==
