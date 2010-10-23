@@ -46,6 +46,12 @@ To get a scala console with acumen's classes loaded, type:
 console
 }}}
 
+To upload a new release, type:
+{{{
+upload <username> <password>
+}}}
+where `username` is you google username and `password` you *google code* (and not google account) password. The google code password is different for each acumen developer and is found at https://code.google.com/hosting/settings .
+
 See [http://code.google.com/p/simple-build-tool/wiki/RunningSbt sbt documentation] for more options.
 
 = Project Structure (or "where are the examples?") =
