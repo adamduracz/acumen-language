@@ -34,7 +34,7 @@
   * it is now allowed to write `if condition statements end` (without an `else` clause); addresses issue 16 
   * no more mode passed to Main: use private variable instead; addresses issue 12
   * the convention is now that Main's first argument is called `simulator`; addresses issue 11
-  * gensym is now local (as opposed to accessing a global counter): objects ids are now hierarchical (e.g. #1.0.2)
+  * gensym is now local (as opposed to accessing a global counter): objects ids are now hierarchical (e.g. `#1.0.2`)
   * the application logic of the UI is now clean and separate from the interaction/drawing code
   * switch from `SwingWorker` to actor based concurrency for the UI
   * turned names into atoms (huge speedup)
