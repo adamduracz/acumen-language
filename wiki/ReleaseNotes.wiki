@@ -1,6 +1,10 @@
 #summary Changelog since the first online version
 #sidebar TableOfContents
 
+== version 10.10.25 (October 25th 2010) ==
+
+ * the object are plotted in the order they were created
+
 == version 10.10.23 (October 23th 2010) ==
 
  * added "upload" action to sbt file that uploads a release on google code (issue 30)
