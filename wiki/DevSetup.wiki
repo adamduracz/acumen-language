@@ -8,7 +8,7 @@
    {{{
    svn co https://svn.rice.edu/r/rap/project/Acumen-Scala
    }}}
-   Or, if you don't have access to the Rice svn, unzip an acumen release and go to the source directory.
+ Or, if you don't have access to the Rice svn, unzip an acumen release and go to the source directory.
  # Launch sbt; in a unix shell positioned in `Acumen-Scala`, type:
    {{{
    sbt
