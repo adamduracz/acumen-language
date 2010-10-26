@@ -10,7 +10,7 @@
  * added a web link to the tutorial
  * added an about box
  * changed the application layout
- * choice between 3 plotting styles (dots, lines, dots+lines) (addresses issue 9)
+ * choice between 3 plotting styles (dots, lines, dots+lines); addresses issue 9
 
 == version 10.10.25 (October 25th 2010) ==
 
