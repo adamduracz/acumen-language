@@ -1,6 +1,17 @@
 #summary Changelog since the first online version
 #sidebar TableOfContents
 
+== svn version ==
+
+ * fixed the non-detection of duplicate classes
+
+== version 10.10.26 (October 26th 2010) ==
+
+ * added a web link to the tutorial
+ * added an about box
+ * changed the application layout
+ * choice between 3 plotting styles (dots, lines, dots+lines)
+
 == version 10.10.25 (October 25th 2010) ==
 
  * the object are plotted in the order they were created
