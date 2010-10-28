@@ -1,7 +1,12 @@
 #summary Changelog since the first online version
 #sidebar TableOfContents
 
-== svn version ==
+== version 10.10.28 (October 28th 2010) ==
+
+ * user can now select the number of threads for the parallel interpreter
+ * minor GUI improvements: mnemonics, recall last export image dimension...
+
+== version 10.10.27 (October 27th 2010) ==
 
  * fixed the non-detection of duplicate classes
 
